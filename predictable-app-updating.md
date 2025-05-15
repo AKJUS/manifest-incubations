@@ -20,7 +20,7 @@ Updates on PWAs are important because they allow:
 - Icon changes via changing icon urls in the manifest.
 - Minor visual changes in the icon even if the url has stayed the same (due to dynamic re-encoding by CDNs).
 
-gFor all these use-cases however, the **detection** of when an update should happen is not clearly defined in the spec, leading to [problems](#chromium-problems). The next session attempts to dive into these problems, and [propose](#proposal) a solution that all user agents can implement without running into the same problems.
+For all these use-cases however, the **detection** of when an update should happen is not clearly defined in the spec, leading to [problems](#chromium-problems). The next session attempts to dive into these problems, and [propose](#proposal) a solution that all user agents can implement without running into the same problems.
 
 # [**Chromium PWA update detection, and its problems**](#chromium-problems)
 
