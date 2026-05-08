@@ -2,6 +2,8 @@
 
 **Author:** Lu Huang (luhua@microsoft.com)
 
+[Issues](https://github.com/WICG/manifest-incubations/issues?q=is%3Aissue%20is%3Aopen%20label%3Ascope-improvements)
+
 ## Introduction
 
 The web app manifest `scope` member defines which URLs belong to an installed web application. Today, scope is a single URL prefix — e.g., `"scope": "/app/"` — and every browser behavior tied to "is this URL part of the app?" inherits that single boundary. This was adequate when scope only governed display-mode switching (standalone vs. browser chrome), but as the platform adds more scope-dependent features — **navigation capturing**, **launch routing** — a single prefix is no longer expressive enough for real-world applications.
